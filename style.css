@@ -145,8 +145,10 @@ main {
     .card-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        align-items: center;
     }
     .image-container {
+        border-top-right-radius: 0px;
         border-top-left-radius: 10px;
         border-bottom-left-radius: 10px;
     }
