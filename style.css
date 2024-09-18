@@ -141,6 +141,10 @@ main {
     }
 }
 
+button.add-to-cart:hover {
+    background-color: #1a4032;
+}
+
 @media screen and (min-width: 500px) {
     .card-container {
         display: grid;
@@ -187,7 +191,7 @@ main {
     }
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 1200px) {
     .card-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -220,6 +224,7 @@ main {
     button.add-to-cart {
         margin: 50px;
         font-size: 44px;
+        border-radius: 16px;
     }
     main {
         height: auto;
